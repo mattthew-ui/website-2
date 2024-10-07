@@ -18,7 +18,22 @@
             text-rendering: optimizeLegibility;
         }
         .header{
-            
+            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+                            url('hero.jpg');
+            background-size: cover;
+            height: 100vh;
+            background-attachment: fixed;
+        }
+        .row{
+            max-width: 1140;
+            margin: 0 auto;
+        }
+        .hero-text-box{
+            width: 1140px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
         }
     </style>
 </head>
@@ -42,11 +57,11 @@
         </div>
     </nav>
 
-<div>
+<div class="hero-text-box">
     <h1>Goodbye junk food <br> Hello super healthy meals.</h1> 
     <br>
-    <a href="#">i'm hunhry</a>
-    <a href="#">Show me More</a>
+ <a href="#">i'm hunhry</a> 
+      <a href="#">Show me More</a> 
 </div>
 
 

@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Omnfood2</title>
     <style>
         *{
             margin: 0;
-            padding 0;
+            padding: 0;
             box-sizing: border-box;
         }
-        html {
+        html, body {
             color: #555;
             font-family: 'lato' , sans-serif;
             font-weight: 300;
@@ -28,6 +28,12 @@
             max-width: 1140;
             margin: 0 auto;
         }
+        .logo{
+            height: 100px;
+            width: auto;
+            float: left;
+            margin-top: 20px;
+        }
         .hero-text-box{
             width: 1140px;
             position: absolute;
@@ -35,34 +41,69 @@
             left: 50%;
             transform: translate(-50%, -50%);
         }
+        .bnt{
+            display: inline-block;
+            padding: 10px 30px;
+            font-weight: 300;
+            text-decoration: none;
+            border-radius: 200px;
+            color: #fff;
+        }
+        .bnt:hover, .bnt:active{
+            background-color: #cf6d17;
+        }
+        .btn-full{
+            background-color: #e67e22;
+            border: 1px solid #e67e22;
+            color: #fff;
+        }
+        .btn-ghost{
+            border: 1px solid;
+            color: #e67e22;
+            transition: color 0.2s;
+        }
+        .bnt-full:hover, .bnt-full:active{
+            border: 1px solid #cf6d17;
+        }
+        .bnt-ghost:hover, .btn-ghost:active{
+            border: 1px solid #cf6d17;
+            color: #fff;
+        }
+        .navigation{
+            float: right;
+            list-style: none;
+            margin-top: 55px;
+        }
+        h1{
+            margin-top: 0;
+            margin-bottom: 20px;
+            color: #fff;
+            font-size: 240%;
+            word-spacing: 4px;
+            letter-spacing: 1px;
+        }
     </style>
 </head>
 <body>
-    <div class="header-container">
-        <div class="another-header">
-            <div>
-
-            </div>
-
-        </div>
-
-    </div>
-    <header class="header">
-        <nav class="nav-bar">
+   <header class="header">
+    <nav class="nav-bar">
         <div class="row">
-        <img src="hero.jpg" alt="am i cooked">
-        <ul class="navgation">
-
-        </ul>
+            <img src="logo-white.png" alt="" class="logo">
+            <!-- <img src="logo.png" alt="" class="logo-black"> -->
+            <ul class="navigation">
+                <li><a href="#features">Food delivery</a></li>
+                <li><a href="#works"></a>How it works</li>
+                <li><a href="#cities">Our cities</a></li>
+                <li><a href="#plans">Sign up</a></li>
+            </ul>
+            <a class="" href=""></a>
         </div>
     </nav>
-
-<div class="hero-text-box">
-    <h1>Goodbye junk food <br> Hello super healthy meals.</h1> 
-    <br>
- <a href="#">i'm hunhry</a> 
-      <a href="#">Show me More</a> 
-</div>
+    <div class="hero-text-box">
+        <h1>Goodbye junk food. <br>Hello super healthy meals.</h1>
+        <a href="#" class="btn bnt-full">I'm hungry</a>
+        <a href="#" class="btn btn-ghost">Show me more</a>
+    </div>
 
 
 

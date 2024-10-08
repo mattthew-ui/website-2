@@ -4,85 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Omnfood2</title>
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        html, body {
-            color: #555;
-            font-family: 'lato' , sans-serif;
-            font-weight: 300;
-            font-size: 20px;
-            text-rendering: optimizeLegibility;
-        }
-        .header{
-            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-                            url('hero.jpg');
-            background-size: cover;
-            height: 100vh;
-            background-attachment: fixed;
-        }
-        .row{
-            max-width: 1140;
-            margin: 0 auto;
-        }
-        .logo{
-            height: 100px;
-            width: auto;
-            float: left;
-            margin-top: 20px;
-        }
-        .hero-text-box{
-            width: 1140px;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-        .bnt{
-            display: inline-block;
-            padding: 10px 30px;
-            font-weight: 300;
-            text-decoration: none;
-            border-radius: 200px;
-            color: #fff;
-        }
-        .bnt:hover, .bnt:active{
-            background-color: #cf6d17;
-        }
-        .btn-full{
-            background-color: #e67e22;
-            border: 1px solid #e67e22;
-            color: #fff;
-        }
-        .btn-ghost{
-            border: 1px solid;
-            color: #e67e22;
-            transition: color 0.2s;
-        }
-        .bnt-full:hover, .bnt-full:active{
-            border: 1px solid #cf6d17;
-        }
-        .bnt-ghost:hover, .btn-ghost:active{
-            border: 1px solid #cf6d17;
-            color: #fff;
-        }
-        .navigation{
-            float: right;
-            list-style: none;
-            margin-top: 55px;
-        }
-        h1{
-            margin-top: 0;
-            margin-bottom: 20px;
-            color: #fff;
-            font-size: 240%;
-            word-spacing: 4px;
-            letter-spacing: 1px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
    <header class="header">
@@ -105,9 +27,39 @@
         <a href="#" class="btn btn-ghost">Show me more</a>
     </div>
 
+</header>
+        <div class="feature">
+            <h2>Get food fast — not fast food</h2>
+            <hr>
+            <p id="intro">Hello, we’re Omnifood, your new premium food delivery service. We know you’re always busy. <br>No time for cooking. So let us take care of that, we’re really good at it, we promise!
+                <div class="column">
+                    <ion-icon name="infinite-outline"></ion-icon>
+                    <h3> Up to 365 days/Year</h3>
+                    <p>Never cook again! We really mean that. Our subscription plans include up to 365 days/year coverage. You can also choose to order more flexibly if that's your style.</p>
+                </div>
+                <div class="column1">
+                    <ion-icon name="timer-outline"></ion-icon>
+                    <h3> Ready in 20 Minutes</h3>
+                    <p>You're only twenty minutes away from your delicious and super healthy meals delivered right to your home. We work with the best chefs in each town to ensure that you're 100% happy.</p>
+                </div>
+                <div class="column2">
+                    <ion-icon name="cart-outline"></ion-icon>
+                    <h3>100% organic</h3>
+                    <p>All our vegetables are fresh, organic and local. Animals are raised without added hormones or antibiotics. Good for your health, the environment, and it also tastes better!</p>
+                </div>
+                <div class="column3">
+                    <ion-icon name="restaurant-outline"></ion-icon>
+                    <h3>Order Anything</h3>
+                    <p>We don't limit your creativity, which means you can order whatever you feel like. You can also choose from our menu containing over 100 delicious meals. It's up to you!</p>
+                </div>
+                </div>
+                <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+                <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        </div>
+    
 
 
-    </header>
+
 
 
 
